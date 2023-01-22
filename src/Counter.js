@@ -2,7 +2,7 @@ import React from "react";
 import "./Counter.css";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
-import { increment, decrement, reset } from "./ReducerCounter";
+import { increment, decrement, reset } from "./Reducers/ReducerCounter";
 
 function CounterApp() {
   const Count = useSelector((state) => state);
